@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact us  </title>
+  
+	<style>
+		form {
+			height: 100vh;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		input[type="text"], input[type="email"], textarea {
+			padding: 10px;
+			width: 100%;
+			margin-bottom: 20px;
+			border-radius: 4px;
+			border: none;
+			background-color: #f0f0f0;
+		}
+
+		textarea {
+			height: 150px;
+		}
+
+		input[type="submit"] {
+			padding: 10px;
+			border-radius: 4px;
+			border: none;
+			background-color: #4CAF50;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e778e;
+		}
+
+	</style>
+    
+</head>
+<head>
+    <div class="social-media-icons">
+        <div class="row">
+            <div class="card">
+               <a href="blog.html"><h2>Back to Website</a></h2>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+	<form action="mailto:marios.roock@gmail.com" method="post" enctype="text/plain">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+		<label for="message">Message:</label>
+		<textarea id="message" name="message"></textarea>
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
