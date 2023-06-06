@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Socialstartupblog.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="SocialStartup Blog.html">Home</a></li>
+                <li><a href="Marios_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></li>
+                <li><a href="Contact Us.html">Contact</a></li>
+            </ul>
+            <img src="SocialStartUp.png" alt="SocialStartups Logo"> 
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="process_contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Socialstartupagency@gmail.com
+                <br>
+                Socialstartupinfo@gmail.com
+                <br>
+                6982494502
+            </p>
+        </section>
+        <p>SocialStartup All rights reserved, 2023</p>
+        <a href="https://www.instagram.com/socialstartupagency/">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+        <a href="SocialStartups Logo">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+        <a href="https://vm.tiktok.com/ZGJxTXW4u/">
+            <img src="tiktok.png" alt="TikTok">
+        </a> 
+    </footer>
+</body>
+</html>
